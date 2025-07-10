@@ -278,9 +278,11 @@ footer {
   background-color: #111;
   color: #aaa;
   text-align: center;
-  padding: 1rem 0;
-  font-size: 0.9rem;
+  padding: 0.5rem 0; /* dikurangi dari 1rem menjadi 0.5rem */
+  font-size: 0.85rem;
+  line-height: 1.4;
 }
+
 
 /* Responsive - Mobile View */
 @media (max-width: 768px) {
